@@ -1,0 +1,81 @@
+/* basic box reset */
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+* img {
+    max-width: 100%;
+    height: auto;
+}
+
+img{
+    display:block;
+}
+
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 680px;
+    margin: 0 auto;
+}
+.item{
+    width: 33.33%;
+    border: .5rem solid white;
+    overflow: hidden;
+}
+
+img {
+    transition: all ease .5s;
+}
+
+.item:hover img{
+    transform: scale(1.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
